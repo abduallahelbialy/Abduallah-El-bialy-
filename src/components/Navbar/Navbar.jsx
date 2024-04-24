@@ -7,7 +7,7 @@ const Navbar = ({ navLinks }) => {
       <div className="n-wrapper ">
         <div className="n-left ">
           <div className="n-name">Elbialy</div>
-         <Toggle/>
+          <Toggle />
         </div>
         <div className="n-right">
           <div className="n-list">
@@ -18,7 +18,12 @@ const Navbar = ({ navLinks }) => {
                 })}
             </ul>
           </div>
-          <button className="button n-button">Contact us</button>
+          <a
+            href="https://api.whatsapp.com/send/?phone=201028924906"
+            target="blank"
+          >
+            <button className="button n-button">Contact us</button>
+          </a>
         </div>
       </div>
     </React.Fragment>
