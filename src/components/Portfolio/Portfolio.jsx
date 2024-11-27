@@ -3,10 +3,12 @@ import "./Portfolio.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import Sidebar from "../../img/sidebar.png";
-import Ecommerce from "../../img/ecommerce.png";
+import Ecommerce from "../../img/17aad51ae07768316c823f0993290a70.png";
 import HOC from "../../img/hoc.png";
+import HOCc from "../../img/Screenshot 2024-11-22 180625.png";
 import MusicApp from "../../img/musicapp.png";
 import { themeContext } from '../../Context';
+
 const Portfolio = () => {
      const theme = useContext(themeContext);
      const darkMode = theme.state.darkMode;
@@ -34,6 +36,9 @@ const Portfolio = () => {
         </SwiperSlide>
         <SwiperSlide>
           <img src={HOC} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={HOCc} alt="" />
         </SwiperSlide>
       </Swiper>
     </div>

@@ -26,7 +26,9 @@ li{
     border: none;
     color: white;
     font-size: 16px;
-    padding: 11px 26px 11px 26px;
+   width: 150px;
+   outline: none;
+   padding: 10px;
   }
   
   .button:hover {
